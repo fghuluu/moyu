@@ -11,4 +11,12 @@
 | access_token | 钉钉机器人access_token |
 | secret | 钉钉机器人secret |
 
-* 第三步：
+* 第三步：新建py文件  
+在脚本管理处新建一个moyu.py文件，把这里的moyu.py文件内容复制进去
+
+* 第四部：创建定时任务
+```
+# 命令
+task moyu.py
+```
+设定好运行时间
