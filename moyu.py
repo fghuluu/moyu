@@ -9,8 +9,11 @@ import urllib.parse
 
 access_token = os.environ.get('access_token')
 secret = os.environ.get('secret')
-url = 'https://api.vvhan.com/api/moyu'
-res = requests.get(url, allow_redirects=False)
+url = 'https://api.j4u.ink/v1/store/other/proxy/remote/moyu.json'
+res = requests.get(url, allow_redirects=False,verify=False)
+api_url = res.json()["data"]["moyu_url"]
+print(api_url)
+res = requests.get(api_url, allow_redirects=False,verify=False)
 img_url = res.headers.get("location")
 print(img_url)
 
