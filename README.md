@@ -28,7 +28,8 @@ task moyu.py
 0 9 * * 1-5
 ```
   
-效果图：![image](https://github.com/fghuluu/moyu/assets/69468148/5e0ff50c-d165-437e-818d-26a5c99a8fa6)
+### 最终效果图如下：  
+![image](https://github.com/fghuluu/moyu/assets/69468148/5e0ff50c-d165-437e-818d-26a5c99a8fa6)
 
   
 ## 申明  
