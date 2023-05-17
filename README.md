@@ -14,7 +14,8 @@
 | secret | 钉钉机器人secret |
 
 ## * 第三步：新建py文件  
-在脚本管理处新建一个moyu.py文件，把这里的moyu.py文件内容复制进去
+在脚本管理处新建一个moyu.py文件，把这里的moyu.py文件内容复制进去  
+若要在推送中附加其他内容参考[钉钉官方文档](https://open.dingtalk.com/document/robots/custom-robot-access)修改data中的内容
 
 ## * 第四部：创建定时任务
 ```
@@ -26,6 +27,9 @@ task moyu.py
 # 周一至周五9点运行
 0 9 * * 1-5
 ```
+  
+效果图：![image](https://github.com/fghuluu/moyu/assets/69468148/5e0ff50c-d165-437e-818d-26a5c99a8fa6)
+
   
 ## 申明  
 本项目仅做学习交流, 禁止用于各种非法途径  
